@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Romario Skrinskiy](https://up.htmlacademy.ru/htmlcss/25/user/996825).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Коробейников](https://up.htmlacademy.ru/htmlcss/25/user/245335).
 
 ---
 
