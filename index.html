@@ -7,12 +7,15 @@
   <body>
      <header class="top-header">
          <a class="logo-top" href="#">техномарт</a>
-         <button class="search">Поиск:</button>
+         <div class="wrap-search">
+             <label for="search"><span class="icon-loupe"></span></label>
+             <input type="text" id="search">
+         </div>         
          <ul class="top-header-list">
-             <li><a class="h-buton basket" href="#">Закладки</a></li>
-             <li><a class="h-buton bookmark" href="#">Корзина</a></li>
-         </ul>
-         <a class="make-order" href="#">Оформить заказ</a>
+             <li><a class="h-buton bookmark" href="#">Закладки:<span class="bookmark-indicator">0</span></a></li>
+             <li><a class="h-buton basket" href="#">Корзина:<span basket-indicator>0</span></a></li>
+             <li><a class="make-order" href="#">Оформить заказ</a></li>li>
+         </ul>     
      </header>
      
      
@@ -120,7 +123,7 @@
         </ul>
          
         <p>Обратная связь<br><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
-        <p>Разработано —<br><a href="htmlacademy.ru">htmlacademy.ru</a></p>
+        <p>Разработано —<br><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
         
         
     </footer>  
