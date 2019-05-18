@@ -6,14 +6,14 @@
 </head>
 <body>
    <header class="top-header">
-         <a class="logo-top" href="#">техномарт</a>
+         <a class="logo-top" href="#">Техномарт</a>
          <div class="wrap-search">
              <label for="search"><span class="icon-loupe"></span></label>
              <input type="text" id="search">
          </div>
          <ul class="top-header-list">
              <li><a class="h-buton bookmark" href="#">Закладки:<span class="bookmark-indicator">0</span></a></li>
-             <li><a class="h-buton basket basket-red" href="#">Корзина:<span basket-indicator>10</span></a></li>
+             <li><a class="h-buton basket basket-red" href="#">Корзина:<span class="basket-indicator">10</span></a></li>
              <li><a class="make-order" href="#">Оформить заказ</a></li>li>
          </ul>     
    </header>
@@ -31,13 +31,10 @@
        </div>
        
        <div class="wrap-user-box">       
-            <ul class="user-box-list">
-                <li><a class="user-icon" href="#"></a></li>
-                <li><a class="user-name" href="#"></a></li>
-                <li><a class="exit-icon" href="#"></a></li>
-            </ul>
+                <a class="user-name" href="#"><span class="user-icon"></span>Равшан Джамшутович</a>
+                <a class="exit-icon" href="#" title="Разлогиниться"></a>
+            
             <a href="">Мои заказы</a>
-            <span class="dot"></span>
             <a href="">Личный кабинет</a>
        </div>
        
@@ -83,32 +80,29 @@
           
           
           
-        <div class="gray-line"></div>
+      
         
         
-        <form class="filter" name="catalog-filter" method="get" action="https://echo.htmlacademy.ru">
+            <form class="filter" name="catalog-filter" method="get" action="https://echo.htmlacademy.ru">
         
-        <span>производители:</span>
-        <ul class="firm-list">
-            <li><label><input type="checkbox" name="bosh" checked>bosh</label></li>
-            <li><label><input type="checkbox" name="интерскол">интерскол</label></li>
-            <li><label><input type="checkbox" name="makita" checked>makita</label></li>
-            <li><label><input type="checkbox" name="dewalt">dewalt</label></li>
-            <li><label><input type="checkbox" name="hitachi">hitachi</label></li>
-        </ul>
+            <h3>Производители:</h3>
+            <ul class="firm-list">
+                <li><label><input type="checkbox" name="bosh" checked>Bosh</label></li>
+                <li><label><input type="checkbox" name="интерскол">Интерскол</label></li>
+                <li><label><input type="checkbox" name="makita" checked>Makita</label></li>
+                <li><label><input type="checkbox" name="dewalt">Dewalt</label></li>
+                <li><label><input type="checkbox" name="hitachi">Hitachi</label></li>
+            </ul>
+            
         
+            <h3>Питание:</h3>
+            <ul class="type-list">
+                <li><label><input type="radio" name="type-product" value="energizer" checked>аккумуляторные</label>    </li>
+                <li><label><input type="radio" name="type-product" value="cord">сетевые</label></li>
+            </ul>
+            <button type="submit">показать</button>
         
-        <div class="gray-line"></div>
-        
-        <span>питание:</span>
-        <ul class="type-list">
-            <li><label><input type="radio" name="type-product" value="energizer" checked>аккумуляторные</label></li>
-            <li><label><input type="radio" name="type-product" value="cord">сетевые</label></li>
-        </ul>
-        <button type="submit">показать</button>
-        
-        </form>
-        
+            </form>
         </section>
         
         <section class="catalog">
@@ -121,6 +115,10 @@
                     <div class="photo-product">
                         <img src="img/3000.jpg" width="218" height="170" alt="Фотография перфоратора">
                     </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
+                    </div>
                 </li>                
                    <li class="catalog-item">
                     <h3 class="name-product">Перфоратор BOSCH BFG 6000</h3>
@@ -128,6 +126,10 @@
                     <div class="red-cost"><span class="cost">25500 Р.</span></div>
                     <div class="photo-product">
                         <img src="img/6000.jpg" width="218" height="170" alt="Фотография перфоратора">    
+                    </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
                     </div>
                 </li>
                 
@@ -139,8 +141,8 @@
                         <div class="new"></div>
                     </div>
                     <div class="hover-card">
-                        <button class="buy-button"><span class="icon-basket"></span>купить</button>
-                        <button class="add-button">в закладки</button>
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
                     </div>
                 </li>
                 <li class="catalog-item">
@@ -149,6 +151,10 @@
                     <div class="red-cost"><span class="cost">15500 Р.</span></div>
                     <div class="photo-product">
                         <img src="img/3000.jpg" width="218" height="170" alt="Фотография перфоратора">
+                    </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
                     </div>
                 </li>                
                    
@@ -160,6 +166,10 @@
                         <img src="img/6000.jpg" width="218" height="170" alt="Фотография перфоратора">
                         <div class="new"></div>
                     </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
+                    </div>
                 </li>
                 
                    
@@ -168,6 +178,10 @@
                     <div class="red-cost"><span class="cost">12500 Р.</span></div>
                     <div class="photo-product">
                         <img src="img/2000.jpg" width="218" height="170" alt="Фотография перфоратора">
+                    </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
                     </div>
                 </li>
                 <li class="catalog-item">
@@ -178,6 +192,10 @@
                         <img src="img/new-3000.jpg" width="218" height="170" alt="Фотография перфоратора">
                         <div class="new"></div>
                     </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
+                    </div>
                 </li>                
                    
                    <li class="catalog-item">
@@ -187,6 +205,10 @@
                     <div class="photo-product">
                         <img src="img/6000.jpg" width="218" height="170" alt="Фотография перфоратора">
                     </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
+                    </div>
                 </li>
                 
                    
@@ -195,6 +217,10 @@
                     <div class="red-cost"><span class="cost">12500 Р.</span></div>
                     <div class="photo-product">
                         <img src="img/2000.jpg" width="218" height="170" alt="Фотография перфоратора">
+                    </div>
+                    <div class="hover-card">
+                        <a href="#" class="buy-button"><span class="icon-basket"></span>купить</a>
+                        <a href="#" class="add-button">в закладки</a>
                     </div>
                 </li>
                   
@@ -218,18 +244,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quaerat ex, necessitatibus possimus deleniti blanditiis nobis quidem quas sapiente totam. Quos dignissimos explicabo deleniti ea sit accusantium adipisci asperiores! Id!</p>
            
            -->
-         
              
-     <div class="add-in-basket">
-         <button class="form-close" aria-label="закрыть форму"></button>
-         <div class="modal-icon-check"></div>
-         <p>Товар добавлен в корзину!</p>
-         <a class="make-order-button" href="#">оформить заказ</a>
-         <button class="white-button">продолжить покупки</button>
-         
-     </div>
-    
-       
         
      <section class="bot-nav">
       
@@ -245,8 +260,7 @@
        </div>
        
        <div class="wrap-bot-nav-line1">
-            <p class="bottom-location-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-               +7 (812) 555-05-55
+            <p class="bottom-location-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
             </p>
             <ul class="bot-menu-list2">
                 <li><a href="#">Материалы</a></li>
@@ -258,9 +272,9 @@
                    
     </section>
      
-    <footer>
+      <footer>
        
-        <p class="copyright">© 2010–2019 Компания «Техномарт»<br>
+        <p class="copyright">© 2010–2019 Компания «Техномарт»
                              Все права защищены
         </p>
         <ul class="social-list">
@@ -269,55 +283,20 @@
             <li><a href="#" class="social insta" aria-label="техномарт в инстаграме"></a></li>
         </ul>
          
-        <p>Обратная связь<br><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
-        <p>Разработано —<br><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+        <p>Обратная связь<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+        <p>Разработано —<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
         
         
-    </footer>     
-        
-        
-        
-        
+      </footer>         
     </main>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    <div class="add-in-basket">
+         <button class="form-close" aria-label="закрыть форму"></button>
+         <div class="modal-icon-check"></div>
+         <p>Товар добавлен в корзину!</p>
+         <a class="make-order-button" href="#">оформить заказ</a>
+         <button class="white-button">продолжить покупки</button>
+    </div>   
     
 </body>
 </html>
