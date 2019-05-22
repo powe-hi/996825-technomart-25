@@ -5,12 +5,288 @@ body {
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 17px;
     color: #ffffff;
-    
-    background: black;
+    background-color: #fff;
 }
 
 
 a {
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+
+.top-header {
+    background-color: #293449;
+}
+
+
+.logo-top {
+    background-color: #ee3643;
+}
+
+.logo-top:hover, .logo-top:focus {
+    background-color: #ca2c37;
+}
+
+.logo-top:active {
+    background-color: #ba2732;
+}
+
+.search {
+    background-color: #293449;
+    border: 0px;
+} 
+
+.search:hover {
+    background-color: #212a3a;
+} 
+
+.search:focus {
+    background-color: #fff;
+} 
+
+.search::placeholder {
+    color: white;
+}
+
+
+.top-header-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.h-buton {
+    color: #fff;    
+}
+
+.h-buton:active {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.make-order {
+    background-color: #63a63e;
+}
+
+.make-order:hover, .make-order:focus {
+    background-color: #5fbb2d;
+}
+
+.make-order:active {
+    background-color: #518534;
+}
+
+
+        /* HEADER END   */
+
+
+.top-section {
+    background-color: #f4f7f9;
+}
+
+.top-section h1 {
+    font-style: italic;
+    color: #ee3643;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+}
+
+
+.phone-number {
+    font-size: 21px;
+    color: #ee3643;
+}
+
+.location-address {
+    font-size: 14px;
+    color: #32425c;
+}
+
+.in-up-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.in-up-list a {
+    font-size: 21px;
+    color: #000;
+    background-color: #fff;
+}
+
+.in-up-list a:hover, .in-up-list a:focus {
+    color: #ee3643;
+}
+
+.in-up-list a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+.top-menu {
+    background-color: #32425c;
+}
+
+.top-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu-list a {
+    color: white;
+}
+
+.top-menu-list a:hover, .top-menu-list a:focus{
+    background-color: #293449;
+}
+
+.top-menu-list a:active {
+    color: #f1f5f7;
+    background-color: #1d2739;
+}
+
+        /*   TOP-SECTION END     */
+
+.about-us h2{
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.about-us p {
+    font-family: "PT Sans", Arial, sans-serif;
+    color: #000;
+    font-size: 13px;
+    line-height: 1.85;
+}
+
+
+.partnership-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+}
+
+.partnership-list li {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.11;
+    font-weight: 600;
+}
+
+
+.red-button {
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fff;
+    background-color: #ee3643; 
+}
+
+
+            /*    ABOUT-US END    */
+
+
+.bot-nav {
+    background-color: #32425c; 
+}
+
+
+.logo-bot {
+    background-color: #ee3643;
+}
+
+.bot-menu-list1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bot-menu-list1 a {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #f1f5f7;
+}
+
+.bot-menu-list1 a:hover, .bot-menu-list1 a:focus {
+    text-decoration: underline;
+}
+
+.bot-menu-list1 a:active {
+    color: rgba(241, 245, 247, 0.5);
+}
+
+
+.bottom-location-address {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #f1f5f7;
+}
+
+.bot-menu-list2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bot-menu-list2 a {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #ffd180;
+}
+
+.bot-menu-list2 a:hover, .bot-menu-list1 a:focus {
+    text-decoration: underline;
+}
+
+.bot-menu-list2 a:active {
+    color: rgba(255, 209, 128, 0.5);
+}
+
+
+            /*   BOT-NAV END     */
+
+
+
+footer {
+    background-color: #293449; 
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 1.13;
+    color: #ffffff;
+}
+
+.social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.social-list social {
+    background-color: #212a3a;
+}
+
+.social-list social:hover, .social-list a:focus, .social-list a:active {
+    background-color: #ee3643;
+}
+
+
+.mail-site {
+    font-size: 16px;
+    line-height: 1.13;
+}
+
+.mail-site a {
+    color: #ffd180;
+}
+
+.mail-site a:hover, .mail-site a:focus {
+    text-decoration: underline;
+}
+
+.mail-site a:active {
+    color: #ee3643;
 }
