@@ -31,7 +31,7 @@ a {
 }
 
 .search {
-    background-color: #293449;
+    background-color: transparent;
     border: 0px;
 } 
 
@@ -265,9 +265,17 @@ footer {
 }
 
 
-.social-list social {
+.social-list li a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
     background-color: #212a3a;
+    background-image: url(../img/insta-icon.svg);
+    background-repeat: no-repeat;
 }
+
+
 
 .social-list social:hover, .social-list a:focus, .social-list a:active {
     background-color: #ee3643;
@@ -290,3 +298,127 @@ footer {
 .mail-site a:active {
     color: #ee3643;
 }
+
+
+
+                            /*         CATALOG PAGE        */
+                            /*         CATALOG PAGE        */
+
+
+.basket {
+    border-color: #ee3643;
+}
+
+
+.wrap-user-box {
+    background-color: #fff;
+    
+}
+
+.user-name {
+    font-size: 21px;
+    color: #000000;
+}
+
+.user-name:active {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+
+.my-button {
+    font-size: 16px;
+    color: #32425c;
+    text-decoration: underline;
+}
+
+
+.my-button:hover, .my-button:focus{
+    font-size: 16px;
+    color: #ee3643;
+    text-decoration: underline;
+}
+
+.my-button:active {
+    font-size: 16px;
+    color: rgba(50, 66, 92, 0.3);
+    text-decoration: underline;
+}
+
+.breadcrumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.breadcrumbs a, .current {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+    color: #000; 
+    text-transform: uppercase;
+}
+
+
+.page-name {
+    background-color: #f2f6f8;
+}
+
+
+.title-page-name {
+    font-size: 30px;
+    font-weight: normal;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+
+.filter h3 {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.filter h3:last-of-type {
+    letter-spacing: 0.2px;
+}
+
+.firm-list, .type-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.firm-list label,.type-list label {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+
+
+.filter button {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    line-height: 1.38;
+}
+
+
+
+
+
+
+
+
